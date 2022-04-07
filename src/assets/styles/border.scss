@@ -1,0 +1,17 @@
+@import './global-variable.scss';
+
+.border-primary{
+    border-color: $color-primary;
+}
+
+.border-secondary{
+    border-color: $color-secondary;
+}
+
+.border-disabled{
+    border-color: $color-disable;
+}
+
+.border-light{
+    border-color: $color-light;
+}

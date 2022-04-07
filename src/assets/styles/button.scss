@@ -1,0 +1,82 @@
+
+@import 'global-variable.scss';
+@import 'background.scss';
+@import 'border.scss';
+
+
+.btn {
+    @apply font-semibold py-2 px-8 transition ease-in-out delay-150 hover:scale-105 duration-300 hover:-translate-y-1
+    
+}
+
+.btn-primary {
+    color: $color-white;
+    @extend .bg-primary;
+    &:hover {
+        @extend .bg-secondary;
+    }
+}
+
+.btn-secondary{
+    @apply border;
+    color: $color-primary;
+    @extend .border-primary;
+    &:hover {
+        @extend .bg-secondary;
+        color: $color-white;
+    }
+}
+.btn-disabled{
+    color: $color-white;
+    @extend .bg-disabled;
+    cursor: not-allowed;
+}
+
+
+.btn-primary-lg {
+    @apply btn btn-primary text-lg  rounded-xl;
+}
+
+.btn-secondary-lg {
+    @apply btn btn-secondary text-lg  rounded-xl;
+}
+
+.btn-disabled-lg {
+    @apply btn btn-disabled text-lg  rounded-xl;
+}
+
+.btn-primary-md {
+    @apply btn btn-primary text-base  rounded-lg;
+}
+
+.btn-secondary-md {
+    @apply btn btn-secondary text-base  rounded-lg;
+}
+
+.btn-disabled-md {
+    @apply btn btn-disabled text-base  rounded-lg;
+}
+
+.btn-primary-sm {
+    @apply btn btn-primary text-sm  rounded-sm;
+}
+
+.btn-secondary-sm {
+    @apply btn btn-secondary text-sm  rounded-sm;
+}
+
+.btn-disabled-sm {
+    @apply btn btn-disabled text-sm  rounded-sm;
+}
+.btn-primary-xs {
+    @apply btn btn-primary text-xs  rounded;
+}
+
+.btn-secondary-xs {
+    @apply btn btn-secondary text-xs  rounded;
+}
+
+.btn-disabled-xs {
+    @apply btn btn-disabled text-xs  rounded;
+}
+

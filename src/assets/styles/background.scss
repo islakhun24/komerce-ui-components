@@ -1,0 +1,17 @@
+@import './global-variable.scss';
+
+.bg-primary{
+    background-color: $color-primary;
+}
+
+.bg-secondary{
+    background-color: $color-secondary;
+}
+
+.bg-disabled{
+    background-color: $color-disable;
+}
+
+.bg-light{
+    background-color: $color-light;
+}

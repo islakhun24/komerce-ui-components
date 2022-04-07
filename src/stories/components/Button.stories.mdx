@@ -1,0 +1,147 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { Source } from '@storybook/addon-docs';
+
+import dedent from 'ts-dedent';
+import '../../assets/styles/button.scss'
+import '../../assets/styles/index.scss'
+
+<Meta title="Components/Button" />
+
+# Button
+
+<div class="text-lg">
+    Use Bootstrap's custom b-button component for actions in forms, dialogs, and more. Includes support for a handful of contextual variations, sizes, states, and more.
+</div>
+<br />
+
+## DEFAULT
+
+<div class="text-lg">
+    Use Bootstrap's custom b-button component for actions in forms, dialogs, and more. Includes support for a handful of contextual variations, sizes, states, and more.
+</div>
+
+<br/>
+
+### Large
+<div class="border border-yellow-500 flex flex-row p-6 bg-gray-100 rounded-md gap-4">
+    <button class="btn-primary-lg">
+        .btn-primary-lg
+    </button>
+    <button class="btn-secondary-lg">
+        .btn-secondary-lg
+    </button>
+    <button class="btn-disabled-lg">
+        .btn-disabled-lg
+    </button>
+</div>
+
+<Source
+  language='html'
+  dark
+  format={true}
+  code={dedent`
+     <button class="btn-primary-lg">
+        .btn-primary-lg
+    </button>
+    <button class="btn-secondary-lg">
+        .btn-secondary-lg
+    </button>
+    <button class="btn-disabled-lg">
+        .btn-disabled-lg
+    </button>
+  `}
+/>
+
+### Medium
+<div class="border border-yellow-500 flex flex-row p-6 bg-gray-100 rounded-md gap-4">
+    <button class="btn-primary-md">
+        .btn-primary-md
+    </button>
+    <button class="btn-secondary-md">
+        .btn-secondary-md
+    </button>
+    <button class="btn-disabled-md">
+        .btn-disabled-md
+    </button>
+</div>
+
+<Source
+  language='html'
+  dark
+  format={true}
+  code={dedent`
+     <button class="btn-primary-md">
+        .btn-primary-md
+    </button>
+    <button class="btn-secondary-md">
+        .btn-secondary-md
+    </button>
+    <button class="btn-disabled-md">
+        .btn-disabled-md
+    </button>
+  `}
+/>
+
+
+### Small
+<div class="border border-yellow-500 flex flex-row p-6 bg-gray-100 rounded-md gap-4">
+    <button class="btn-primary-md">
+        .btn-primary-sm
+    </button>
+    <button class="btn-secondary-md">
+        .btn-secondary-sm
+    </button>
+    <button class="btn-disabled-md">
+        .btn-disabled-sm
+    </button>
+</div>
+
+<Source
+  language='html'
+  dark
+  format={true}
+  code={dedent`
+     <button class="btn-primary-sm">
+        .btn-primary-sm
+    </button>
+    <button class="btn-secondary-sm">
+        .btn-secondary-sm
+    </button>
+    <button class="btn-disabled-sm">
+        .btn-disabled-sm
+    </button>
+  `}
+/>
+
+### X-Small
+<div class="border border-yellow-500 flex flex-row p-6 bg-gray-100 rounded-md gap-4">
+    <button class="btn-primary-xs">
+        .btn-primary-xs
+    </button>
+    <button class="btn-secondary-xs">
+        .btn-secondary-xs
+    </button>
+    <button class="btn-disabled-xs">
+        .btn-disabled-xs
+    </button>
+</div>
+
+<Source
+  language='html'
+  dark
+  format={true}
+  code={dedent`
+     <button class="btn-primary-xs">
+        .btn-primary-xs
+    </button>
+    <button class="btn-secondary-xs">
+        .btn-secondary-xs
+    </button>
+    <button class="btn-disabled-xs">
+        .btn-disabled-xs
+    </button>
+  `}
+/>
+
+
+<!-- ## FULL WIDTH -->
